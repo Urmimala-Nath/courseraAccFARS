@@ -1,0 +1,26 @@
+---
+title: "Coursera FARS ACCIDENTS"
+author: "URMIMALA NATH"
+date: "28 June 2020"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Coursera FARS ACCIDENTS}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## DESCRIPTION : Coursera FARS ACCIDENTS
+
+This package uses data taken from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS).  
+It is a nationwide census, providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.  
+
+#### PACKAGE FUNCTIONALITY
+
+Method Name             | Usage of this Function
+-----------             | ----------------------
+fars_read               | To read data of accidents from the file specified by "Make_Filename()" & returns a tibble; error thrown if doesn't exist.
+make_filename           | To generate a file name (character string) corresponding to the year of accident entered by the user.
+fars_read_years         | To read the Monthly data of accidents that occurred in the years specified; error thrown if year entered is invalid.
+fars_summarize_years    | Summarizes the Number of Accidents occurred in each month for the requested years. 
+fars_map_state          | Gives a Graphical Representation of the #Accidents occurring in a specified State for a given year.
+
