@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Package: courseraAccFARS
 Type: Package
 Title: Final Assignment of Coursera:Building an R Package where FARS Accident Data is used.
@@ -15,35 +14,9 @@ Suggests:
     knitr,
     rmarkdown,
     dplyr,
-    tidyr,
     readr,
     maps,
     devtools,
     testthat
 VignetteBuilder: knitr
 RoxygenNote: 7.1.0
-=======
-Package: courseraAccFARS
-Type: Package
-Title: Final Assignment of Coursera:Building an R Package where FARS Accident Data is used.
-Version: 0.1.0
-Author: Urmimala Nath
-Maintainer: Urmimala Nath <official.urmi.here@gmail.com>
-Description: In this package, we read data of the FARS Accidents from files corresponding to the years entered by the user.
-    Several functions are performed, like creating file names, reading data, summarizing monthly accident information of specified years & graphical plots of state-wise results.
-    This assignment marks the end of the Course 3 of Mastering Software Development in R in Coursera.
-License: GPL-2
-Encoding: UTF-8
-LazyData: FALSE
-Suggests: 
-    knitr,
-    rmarkdown,
-    dplyr,
-    tidyr,
-    readr,
-    maps,
-    devtools,
-    testthat
-VignetteBuilder: knitr
-RoxygenNote: 7.1.0
->>>>>>> 96f56c6a56d46290a15f4b8a286cdc59d9e947a9
