@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
 ^\.travis\.yml$
+=======
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^\.travis\.yml$
+>>>>>>> 96f56c6a56d46290a15f4b8a286cdc59d9e947a9
